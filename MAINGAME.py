@@ -18,30 +18,30 @@ pygame.display.set_caption('GAME ARCHERO - BURAK ICEL') # title
 
 
 # # # IMPORTED IMAGES # # #
-background = pygame.image.load('bgc1.jpg') #3rd person background
-first_switch = pygame.image.load('1stperson.png') #Switch message for 1st person
-second_switch = pygame.image.load('spacebar2.png') #Switch message for 3rd person
-hitmark = pygame.image.load('hitmark.png') #Hitmark symbol for 1st person
-lost = pygame.image.load('youlost.png') #Lost message
-first_person_bg = pygame.image.load('1stbg.jpg') #Background for 1st person
-highscore_bg = pygame.image.load('highscore_bg.png')
-instructions_bg = pygame.image.load('instructions_bg.png')
-fps_arrow = pygame.image.load('arrow.png')
-fps_arrow_action = pygame.image.load('arrow_action.png')
-button_bg = pygame.image.load('button_bg.jpg')
-button_bg_overlay = pygame.image.load('button_bg_overlay.jpg')
-bg_loop = pygame.image.load('bg_loop.jpg')
-bg_menu = pygame.image.load('bg_menu.png')
-instructions = pygame.image.load('info.png')
+background = pygame.image.load(‘resources/bgc1.jpg') #3rd person background
+first_switch = pygame.image.load('resources/1stperson.png') #Switch message for 1st person
+second_switch = pygame.image.load('resources/spacebar2.png') #Switch message for 3rd person
+hitmark = pygame.image.load('resources/hitmark.png') #Hitmark symbol for 1st person
+lost = pygame.image.load('resources/youlost.png') #Lost message
+first_person_bg = pygame.image.load('resources/1stbg.jpg') #Background for 1st person
+highscore_bg = pygame.image.load('resources/highscore_bg.png')
+instructions_bg = pygame.image.load('resources/instructions_bg.png')
+fps_arrow = pygame.image.load('resources/arrow.png')
+fps_arrow_action = pygame.image.load('resources/arrow_action.png')
+button_bg = pygame.image.load('resources/button_bg.jpg')
+button_bg_overlay = pygame.image.load('resources/button_bg_overlay.jpg')
+bg_loop = pygame.image.load('resources/bg_loop.jpg')
+bg_menu = pygame.image.load('resources/bg_menu.png')
+instructions = pygame.image.load('resources/info.png')
 #Movement for 3RD Person Pics
-movement1 = pygame.image.load('movement1.png')
-movement2 = pygame.image.load('movement12.png')
-movement3 = pygame.image.load('movement2.png')
-movement4 = pygame.image.load('movement22.png')
-shoulders = pygame.image.load('shoulders.png')
-shoulders2 = pygame.image.load('shoulders2.png')
+movement1 = pygame.image.load('resources/movement1.png')
+movement2 = pygame.image.load('resources/movement12.png')
+movement3 = pygame.image.load('resources/movement2.png')
+movement4 = pygame.image.load('resources/movement22.png')
+shoulders = pygame.image.load('resources/shoulders.png')
+shoulders2 = pygame.image.load('resources/shoulders2.png')
 #Music
-pygame.mixer.music.load("legend.mp3")
+pygame.mixer.music.load("resources/legend.mp3")
 
 
 # # # PYGAME DEFINING COLORS # # #
